@@ -1,29 +1,65 @@
+html {
+   /* this is 1 x em */
+   font-size: 20px;
+}
+
 body {
   background-color: lightblue;
 }
+/* everything on a web page is in the shape of box */
+/* box model */
+/* .box {
+  width: 300px;
+  height: 200px;
+  padding: 25px;
+  margin: 25px;
+  border: 2px solid #000;
+} */
 
-h1.header {
-  /* color: red; */
-  /* 0 255 = 00 ff */
-  /* red green blue */
-  /* #ff2255 */
-  /* color: #ff00ff; 
-  background-color: #ffffff; */
-  /* 0 to 1 */
-  /* display: none; */
-  /* opacity: 0.25; */
-  /* RGB */
-  /* color: #ff0000;
-  color: rgb(255, 0, 0);
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0); */
-  /* color: rgba(23, 140, 100, 1);
-  background-color: rgba(0,0,0,0.5); */
-  /* hue saturation and lightness */
-  /* background-color: hsl(240, 75%, 90%); */
-  /* background-color: hsla(120, 100%, 50%, 0.5); */
-  /* color: #ff0000; */
-  /* opacity: 0.5; */
-  /* color: rgba(255, 0, 0, 0.5); */
-  color: rgb(24, 214, 52);
+/* absolute and relative lengths */
+/* 1/96 of an inch */
+
+/* button {
+  width: 200px;
+  height: 60px;
+} */
+
+/* absolute length */
+/* .box {
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+} */
+
+/* relative length */
+.box {
+  /* display: block;
+  width: 100%; */
+  width: 75%;
+  height: 300px;
+  background-color: #fff;
 }
+
+.outer-box {
+  background-color: #642222;
+  height: 500px;
+  width: 75%;
+  /* font-size: 5px; */
+}
+
+/* em rem */
+.inner-box {
+  /* font-size: 20px; */
+  background-color: #1bce2d;
+  /* height: 10em;  /* 10 x 16px = 160px */
+  /* width: 20em;  /* 20 x16px = 320px */
+  width: 20rem;
+  height: 10rem;
+}
+
+h1 {
+  /* 2 x 16px = 32px */
+  font-size: 3em;
+  /* font-size: 1rem; */
+}
+
