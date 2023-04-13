@@ -1,65 +1,60 @@
-html {
-   /* this is 1 x em */
-   font-size: 20px;
-}
-
-body {
-  background-color: lightblue;
-}
-/* everything on a web page is in the shape of box */
-/* box model */
-/* .box {
-  width: 300px;
-  height: 200px;
-  padding: 25px;
-  margin: 25px;
-  border: 2px solid #000;
-} */
-
-/* absolute and relative lengths */
-/* 1/96 of an inch */
-
-/* button {
-  width: 200px;
-  height: 60px;
-} */
-
-/* absolute length */
-/* .box {
-  width: 400px;
-  height: 300px;
-  background-color: #fff;
-} */
-
-/* relative length */
-.box {
-  /* display: block;
-  width: 100%; */
-  width: 75%;
-  height: 300px;
-  background-color: #fff;
-}
-
-.outer-box {
-  background-color: #642222;
-  height: 500px;
-  width: 75%;
-  /* font-size: 5px; */
-}
-
-/* em rem */
-.inner-box {
-  /* font-size: 20px; */
-  background-color: #1bce2d;
-  /* height: 10em;  /* 10 x 16px = 160px */
-  /* width: 20em;  /* 20 x16px = 320px */
-  width: 20rem;
-  height: 10rem;
-}
-
 h1 {
-  /* 2 x 16px = 32px */
+  /* 1em = 16px */
   font-size: 3em;
-  /* font-size: 1rem; */
 }
 
+/* .box-model {
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    border: 6px solid #949599;
+} */
+
+/* components box model are: width, height, padding, margin and border */
+
+.box3 {
+  padding: 40px;
+  width: 400px;
+  height: 400px;
+  background-color: #d4be5c;
+  /* margin: 50px; */
+  /* color: #f33; */
+  /* border: 20px double; */
+  border-width: 20px;
+  border-style: double;
+  border-color: #19e352;
+  /* border-radius: 200px; */
+  border-radius: 50%;
+}
+
+.box1 {
+  color: #fff;
+  /* width = 440px, height = 440px */
+  width: 400px;
+  height: 400px;
+  background-color: #9b759e;
+  /* top right bottom left */
+  /* padding: 20px 20px 20px 20px; */
+  padding: 20px;
+  /* padding: 30px 20px 0px 100px; */
+  /* padding: 30px 10px 30px 10px; /* = padding: 30px 10px; */
+  /* padding: 20px; */
+  /* padding-right: 30px; */
+  /* padding-left: 50px;
+  padding-top: 40px;
+  padding: 40px 0 0 50px; */
+}
+
+.box2 {
+  color: #fff;
+  width: 400px;
+  height: 400px;
+  background-color: #19e352;
+  /* margin: 20px; */
+  /* margin: 20px 20px 20px 20px; */
+  /* margin: 30px 10px 0 100px; */
+  /* margin: 25px 10px;  */
+  margin-top: 20px;
+  margin-left: 200px;
+}
