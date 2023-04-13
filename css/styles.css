@@ -3,55 +3,27 @@ body {
 }
 
 h1.header {
-  color: red;
-}
-
-.content h3 {
-  text-align: center;
-  font-size: 24px;
-}
-
-.content p.text {
-  text-decoration: underline;
-}
-
-.news {
-  background-color: lightcoral;
-}
-
-.news__content {
-  background-color: red;
-}
-
-.blog {
-  background-color: lightgreen;
-}
-
-.blog__header {
-  color: white;
-}
-
-.news__button--danger {
-  background-color: red;
-}
-
-.news__button--success {
-  background-color: green;
-}
-
-
-.article h2 {
-  text-align: center;
-}
-
-.article p {
-  background-color: gold;
-}
-
-.article button {
-  /* some styles in here */
-}
-
-.article img {
-  /* some styles in here */
+  /* color: red; */
+  /* 0 255 = 00 ff */
+  /* red green blue */
+  /* #ff2255 */
+  /* color: #ff00ff; 
+  background-color: #ffffff; */
+  /* 0 to 1 */
+  /* display: none; */
+  /* opacity: 0.25; */
+  /* RGB */
+  /* color: #ff0000;
+  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0); */
+  /* color: rgba(23, 140, 100, 1);
+  background-color: rgba(0,0,0,0.5); */
+  /* hue saturation and lightness */
+  /* background-color: hsl(240, 75%, 90%); */
+  /* background-color: hsla(120, 100%, 50%, 0.5); */
+  /* color: #ff0000; */
+  /* opacity: 0.5; */
+  /* color: rgba(255, 0, 0, 0.5); */
+  color: rgb(24, 214, 52);
 }
