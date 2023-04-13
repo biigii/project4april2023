@@ -15,20 +15,43 @@ h1.header {
   text-decoration: underline;
 }
 
-.btn {
-  font-size: 24px;
-  text-transform: uppercase;
-  text-decoration: underline;
+.news {
+  background-color: lightcoral;
 }
 
-.btn-green {
+.news__content {
+  background-color: red;
+}
+
+.blog {
+  background-color: lightgreen;
+}
+
+.blog__header {
+  color: white;
+}
+
+.news__button--danger {
+  background-color: red;
+}
+
+.news__button--success {
   background-color: green;
 }
 
-.btn-blue {
-  background-color: blue;
+
+.article h2 {
+  text-align: center;
 }
 
-.btn-red {
-  background-color: red;
+.article p {
+  background-color: gold;
+}
+
+.article button {
+  /* some styles in here */
+}
+
+.article img {
+  /* some styles in here */
 }
